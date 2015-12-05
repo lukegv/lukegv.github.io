@@ -474,6 +474,68 @@
 				text-align: left;
 			}
 
+/* Project */
+
+	.info-description {
+		margin: 2%;
+	}
+
+	.project-grid .project .info {
+		display: flex;
+	}
+
+	/* Odd project */
+	
+	.project-grid .project:nth-child(odd) .info {
+		margin-right: 10%;
+	}
+	
+	.project-grid .project:nth-child(odd) .info .info-image {
+		order: 1;
+		width: 30%;
+		height: auto;
+	}
+		
+	.project-grid .project:nth-child(odd) .info .info-description {
+		order: 2;
+		width: 70%;
+		height: auto;
+	}
+	
+	/* Even project */
+	
+	.project-grid .project:nth-child(even) header {
+		text-align: right;
+	}
+	
+	.project-grid .project:nth-child(even) .info {
+		margin-left: 10%;
+	}
+	
+	.project-grid .project:nth-child(even) .info .info-image {
+		order: 2;
+		width: 30%;
+		height: auto;
+	}
+		
+	.project-grid .project:nth-child(even) .info .info-description {
+		order: 1;
+		width: 70%;
+		height: auto;
+	}
+	
+	.project-grid .project:nth-child(even) .info .info-description p {
+		text-align: right;
+	}
+	
+	.project-grid .project:nth-child(even) .buttons {
+		float: right;
+	}
+	
+	.project-grid .project:nth-child(even) hr {
+		clear: right;
+	}
+			
 /* Icon */
 
 	.icon {
