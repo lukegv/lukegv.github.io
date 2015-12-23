@@ -476,12 +476,21 @@
 
 /* Project */
 
-	.info-description {
-		margin: 2%;
-	}
-
 	.project-grid .project .info {
 		display: flex;
+	}
+	
+	/* Add a space when using navigation hashs */
+	.project:before {
+		display: block; 
+		content: " "; 
+		margin-top: -110px; 
+		height: 110px; 
+		visibility: hidden; 
+	}
+
+	.info-description {
+		margin: 2%;
 	}
 
 	/* Odd project */
