@@ -30,7 +30,7 @@
 		margin-bottom: 1em;
 	}
 	
-/* Project */
+/* Project Grid */
 
 	.project-grid .project .info {
 		flex-direction: column;
@@ -65,6 +65,29 @@
 		clear: none !important;
 	}
 
+/* Project Details */
+
+	.details .headline {
+		height: auto !important;
+		flex-direction: column;
+	}
+	
+	.details .headline .info {
+		width: 100% !important;
+	}
+	
+	.details .headline .gallery {
+		width: 100% !important;
+	}
+	
+	.details .headline .gallery .slider {
+		margin-left: auto !important;
+	}
+	
+	.details .text {
+		margin-top: 0 !important;
+	}
+	
 /* Banner */
 
 	#banner {
