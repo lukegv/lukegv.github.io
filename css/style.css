@@ -581,6 +581,11 @@
 	
 	.details .headline .gallery .slider li img {
 		margin: 0 auto;
+		max-height: 380px;
+	}
+	
+	.details .headline .gallery .slider .bx-wrapper .bx-viewport {
+		max-height: 380px;
 	}
 	
 	.details .headline .gallery .slider .bx-pager {
