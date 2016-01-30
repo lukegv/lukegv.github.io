@@ -595,6 +595,23 @@
 	.details .text {
 		margin-top: 50px;
 	}
+	
+	.details .iframe-container {
+		position: relative;
+		padding-bottom: 56.25%; /* ratio 16x9 */
+		height: 0; 
+		overflow: hidden; 
+		width: 100%;
+		height: auto;
+	}
+	
+	.details .iframe-container iframe {
+		position: absolute; 
+		top: 0; 
+		left: 0; 
+		width: 100%; 
+		height: 100%; 
+	}
 
 /* Icon */
 
