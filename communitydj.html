@@ -9,15 +9,17 @@
 		<link rel="icon" type="image/png" href="images/favicon-16x16.png" sizes="16x16">
 		<link rel="icon" type="image/png" href="images/favicon-32x32.png" sizes="32x32">
 		<link rel="icon" type="image/png" href="images/favicon-96x96.png" sizes="96x96">
-		<!-- bxSlider CSS file -->
-		<link href="bxslider/jquery.bxslider.css" rel="stylesheet" />
+		<!-- Slick CSS files-->
+		<link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+		<link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
 		<!--[if lte IE 8]><script src="js/html5shiv.js"></script><![endif]-->
 		<script src="http://code.jquery.com/jquery-latest.min.js"></script>
 		<script src="js/skel.min.js"></script>
 		<script src="js/skel-layers.min.js"></script>
 		<script src="js/init.js"></script>
-		<!-- bxSlider Javascript file -->
-		<script src="bxslider/jquery.bxslider.min.js"></script>
+		<!-- Slick JS files-->
+		<script src="slick/slick.min.js"></script>
+		<script src="js/slick-init.js"></script>
 		<noscript>
 			<link rel="stylesheet" href="css/skel.css" />
 			<link rel="stylesheet" href="css/style.css" />
@@ -57,21 +59,13 @@
 					<!-- Gallery -->
 					<div class="gallery">
 						<div class="slider">
-							<ul class="bxslider">
-								<li><img src="images/communitydj.jpg" /></li>
-								<li><img src="images/communitydj_browserview.png" /></li>
-								<li><img src="images/communitydj_configuration.png" /></li>
-							</ul>
+							<div class="img-container">
+								<img src="images/communitydj.jpg" />
+							</div>
+							<div class="img-container">
+								<img src="images/communitydj_browserview.png" />
+							</div>
 						</div>
-						<script>
-							$(document).ready(function(){
-								$('.bxslider').bxSlider({
-									infiniteLoop: false,
-									hideControlOnEnd: true,
-									slideWidth: 800
-								});
-							});
-						</script>
 					</div>
 				</div>
 				<!-- Text -->
