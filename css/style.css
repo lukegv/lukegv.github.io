@@ -491,12 +491,19 @@
 	/* Add a space when using navigation hashs */
 	.project:before {
 		display: block; 
-		content: " "; 
+		content: " ";
 		margin-top: -110px; 
 		height: 110px; 
 		visibility: hidden; 
 	}
 
+	/* Adds a space to the footer after last project */
+	.project-grid .project:last-child:after {
+		display: block;
+		content: " ";
+		height: 30px;
+	}
+	
 	.info-description {
 		margin: 2%;
 	}
@@ -771,7 +778,7 @@
 
 			ul.actions li {
 				display: inline-block;
-				padding: 0 1em 0 0;
+				padding: 1em 1em 0 0;
 				vertical-align: middle;
 			}
 
@@ -1197,7 +1204,7 @@
 	#banner {
 		padding: 16em 0 13em 0;
 		background-attachment: fixed;
-		background-image: url("images/overlay.png"), url("../images/banner.jpg");
+		background-image: url("images/overlay.png"), url("../images/index/banner.jpg");
 		background-position: center top;
 		background-size: cover;
 		line-height: 1.75;
@@ -1245,7 +1252,7 @@
 
 		.wrapper.style3 {
 			background-attachment: fixed;
-			background-image: url("images/overlay.png"), url("../images/banner.jpg");
+			background-image: url("images/overlay.png"), url("../images/index/banner.jpg");
 			background-position: center center;
 			background-size: cover;
 		}
@@ -1265,7 +1272,7 @@
 /* Footer */
 
 	#footer {
-		padding: 4em 0 4em 0;
+		padding: 3em 0 3em 0;
 		background: #f6f6f6;
 		color: #aaa;
 		text-align: center;
