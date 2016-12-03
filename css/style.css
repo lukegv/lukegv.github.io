@@ -148,6 +148,10 @@
 			overflow-x: auto;
 		}
 	
+	.no-margin {
+		margin: 0 0 0 0 !important;
+	}
+	
 	.content {
 		display: none;
 	}
